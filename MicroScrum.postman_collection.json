@@ -1,0 +1,321 @@
+{
+	"info": {
+		"_postman_id": "ba512076-459b-4d54-a0d9-1ce1ddf2c53f",
+		"name": "MicroScrum",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "MicroGet",
+			"item": [
+				{
+					"name": "GetAllTasks",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": " Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiODRkYWQyYmUtNzY4ZC00NjU2LTliOTAtNGY4ZGZmZGQ3YmQ4IiwiZXhwIjoxNTgwNDI4ODAwfQ.RpAtOQP1vLoNQNm79k3zWDCkvvi2T2auIX9n-8c2ixU",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://grimaldi.airboxsystems.com/api/task/v1/task/tasks",
+							"protocol": "https",
+							"host": [
+								"grimaldi",
+								"airboxsystems",
+								"com"
+							],
+							"path": [
+								"api",
+								"task",
+								"v1",
+								"task",
+								"tasks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetLatestInfforUser",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": " Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiODRkYWQyYmUtNzY4ZC00NjU2LTliOTAtNGY4ZGZmZGQ3YmQ4IiwiZXhwIjoxNTgwNDI4ODAwfQ.RpAtOQP1vLoNQNm79k3zWDCkvvi2T2auIX9n-8c2ixU",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://grimaldi.airboxsystems.com/api/task/v1/task/tasks/organisations/Organisation_3/13991/latest",
+							"protocol": "https",
+							"host": [
+								"grimaldi",
+								"airboxsystems",
+								"com"
+							],
+							"path": [
+								"api",
+								"task",
+								"v1",
+								"task",
+								"tasks",
+								"organisations",
+								"Organisation_3",
+								"13991",
+								"latest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get task details",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiODRkYWQyYmUtNzY4ZC00NjU2LTliOTAtNGY4ZGZmZGQ3YmQ4IiwiZXhwIjoxNTgwNDI4ODAwfQ.RpAtOQP1vLoNQNm79k3zWDCkvvi2T2auIX9n-8c2ixU",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://grimaldi.airboxsystems.com/api/task/v1/task/tasks/365",
+							"protocol": "https",
+							"host": [
+								"grimaldi",
+								"airboxsystems",
+								"com"
+							],
+							"path": [
+								"api",
+								"task",
+								"v1",
+								"task",
+								"tasks",
+								"365"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "PostTasks",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": " Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiODRkYWQyYmUtNzY4ZC00NjU2LTliOTAtNGY4ZGZmZGQ3YmQ4IiwiZXhwIjoxNTgwNDI4ODAwfQ.RpAtOQP1vLoNQNm79k3zWDCkvvi2T2auIX9n-8c2ixU",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n{\r\n      \"abxTaskId\": \"\",\r\n      \"organisationTaskId\": \"397745\",\r\n      \"organisationId\": \"Organisation_3\",\r\n      \"priority\": \"A1\",\r\n      \"taskStatus\": null,\r\n      \"assignedTo\": \"13991\",\r\n      \"timeStamp\": \"2019-11-14T07:21:33+00:00\",\r\n      \"latitude\": 5.118083,\r\n      \"longitude\": 52.021698,\r\n      \"taskSummary\": \"Nieuwegein - Mobilisatiedok (2019-11-14 07:21:33)\",\r\n      \"taskDescription\": \"Incident: 397727\\nTijdstip: 2019-11-14 07:21:33\\nPostcode: 3439JG\\nPlaats: Nieuwegein\\nStraat: Mobilisatiedok\\nHuisnr.: 4\\nHuisnr. toevoeging: -\\nHuisnr. aanduiding: -\\n : \\nLat. : 5.118083\\nLong.: 52.021698\\n\"\r\n  }\r\n]"
+				},
+				"url": {
+					"raw": "https://grimaldi.airboxsystems.com/api/task/v1/task/tasks",
+					"protocol": "https",
+					"host": [
+						"grimaldi",
+						"airboxsystems",
+						"com"
+					],
+					"path": [
+						"api",
+						"task",
+						"v1",
+						"task",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updated an existing task",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": " Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiODRkYWQyYmUtNzY4ZC00NjU2LTliOTAtNGY4ZGZmZGQ3YmQ4IiwiZXhwIjoxNTgwNDI4ODAwfQ.RpAtOQP1vLoNQNm79k3zWDCkvvi2T2auIX9n-8c2ixU",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"abxTaskId\": \"365\",\r\n    \"organisationTaskId\": \"402564\",\r\n    \"organisationId\": \"Organisation_3\",\r\n    \"priority\": \"A1\",\r\n    \"taskStatus\": null,\r\n    \"assignedTo\": \"13991\",\r\n    \"timeStamp\": \"2019-11-18T08:27:27+00:00\",\r\n    \"latitude\": 5.299562,\r\n    \"longitude\": 52.406176,\r\n    \"taskSummary\": \"Almere - Lastdragerstraat (2019-11-18 08:27:27)\",\r\n    \"taskDescription\": \"Incident: 402564\\nTijdstip: 2019-11-18 08:27:27\\nPostcode: 1335VA\\nPlaats: Almere\\nStraat: Lastdragerstraat\\nHuisnr.: 17\\nHuisnr. toevoeging: -\\nHuisnr. aanduiding: -\\n : \\nLat. : 5.299562\\nLong.: 52.406176\\n\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://grimaldi.airboxsystems.com/api/task/v1/task/tasks/365",
+					"protocol": "https",
+					"host": [
+						"grimaldi",
+						"airboxsystems",
+						"com"
+					],
+					"path": [
+						"api",
+						"task",
+						"v1",
+						"task",
+						"tasks",
+						"365"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " Delete an existing task",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiODRkYWQyYmUtNzY4ZC00NjU2LTliOTAtNGY4ZGZmZGQ3YmQ4IiwiZXhwIjoxNTgwNDI4ODAwfQ.RpAtOQP1vLoNQNm79k3zWDCkvvi2T2auIX9n-8c2ixU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://grimaldi.airboxsystems.com/api/task/v1/task/tasks/391",
+					"protocol": "https",
+					"host": [
+						"grimaldi",
+						"airboxsystems",
+						"com"
+					],
+					"path": [
+						"api",
+						"task",
+						"v1",
+						"task",
+						"tasks",
+						"391"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All the tasks for a given organisation",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": " Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiODRkYWQyYmUtNzY4ZC00NjU2LTliOTAtNGY4ZGZmZGQ3YmQ4IiwiZXhwIjoxNTgwNDI4ODAwfQ.RpAtOQP1vLoNQNm79k3zWDCkvvi2T2auIX9n-8c2ixU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://grimaldi.airboxsystems.com/api/task/v1/task/tasks",
+					"protocol": "https",
+					"host": [
+						"grimaldi",
+						"airboxsystems",
+						"com"
+					],
+					"path": [
+						"api",
+						"task",
+						"v1",
+						"task",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " No tasks return 204 - no content.",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": " Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiODRkYWQyYmUtNzY4ZC00NjU2LTliOTAtNGY4ZGZmZGQ3YmQ4IiwiZXhwIjoxNTgwNDI4ODAwfQ.RpAtOQP1vLoNQNm79k3zWDCkvvi2T2auIX9n-8c2ixU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://grimaldi.airboxsystems.com/api/task/v1/task/tasks/organisations/Organisation_3/13992/latest",
+					"protocol": "https",
+					"host": [
+						"grimaldi",
+						"airboxsystems",
+						"com"
+					],
+					"path": [
+						"api",
+						"task",
+						"v1",
+						"task",
+						"tasks",
+						"organisations",
+						"Organisation_3",
+						"13992",
+						"latest"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "d7989c6a-97ab-4229-beca-42b3bd4593a8",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "ede5e54d-916d-41b1-8efb-1b6b44fd261d",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "fbeb4b11-e48d-4381-be67-d572a426875d",
+			"key": "url",
+			"value": null,
+			"type": "any"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
