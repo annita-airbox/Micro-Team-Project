@@ -1,0 +1,83 @@
+{
+	"id": "c04d9bbf-6acd-4fff-b797-5152d6316a1c",
+	"name": "Barcodes",
+	"timestamp": "2020-02-27T18:14:17.188Z",
+	"collection_id": "356337f5-8b67-4f29-8c7f-8bdcc8189de2",
+	"folder_id": 0,
+	"environment_id": "018182f7-63d4-460a-a7d7-85abee45cb5f",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "297de3be-ff08-4232-92cc-4e00bf94ccd7",
+			"name": "Barcode-298",
+			"url": "https://grimaldi.airboxsystems.com:10000/airbox_barcode/api/barcode/v1/barcode/demo/readings",
+			"time": 522,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				522
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "35c9fcf1-6feb-49ea-9f0f-9dbb9190c821",
+			"name": "Barcode-304",
+			"url": "https://grimaldi.airboxsystems.com:10000/airbox_barcode/api/barcode/v1/barcode/demo/readings",
+			"time": 489,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				489
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2b646bd5-9158-40b3-a05c-c6a229a35f65",
+			"name": "Barcode-304",
+			"url": "https://grimaldi.airboxsystems.com:10000/airbox_barcode/api/barcode/v1/barcode/demo/readings",
+			"time": 458,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				458
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"collection": {
+		"requests": [
+			{
+				"id": "297de3be-ff08-4232-92cc-4e00bf94ccd7",
+				"method": "POST"
+			},
+			{
+				"id": "35c9fcf1-6feb-49ea-9f0f-9dbb9190c821",
+				"method": "POST"
+			},
+			{
+				"id": "2b646bd5-9158-40b3-a05c-c6a229a35f65",
+				"method": "POST"
+			}
+		]
+	}
+}

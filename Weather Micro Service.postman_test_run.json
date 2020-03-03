@@ -1,0 +1,202 @@
+{
+	"id": "14287613-6b56-4347-959e-a598ebfcac5d",
+	"name": "Weather Micro Service",
+	"timestamp": "2020-02-27T17:43:38.587Z",
+	"collection_id": "4115a23d-ca7c-4eb8-af68-d515259f90c4",
+	"folder_id": 0,
+	"environment_id": "018182f7-63d4-460a-a7d7-85abee45cb5f",
+	"totalPass": 1,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "94ce3b75-0231-49f4-bd9d-5bdf879e6d1f",
+			"name": "POST_To_getlist_of_ ICAOs",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_ukweather/api/ukweather/v1/UKWeather/tafs",
+			"time": 103,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				103
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "69e4866d-4b43-418c-b2ce-7401844dfd4c",
+			"name": "POST_To_get_ Tafs",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_ukweather/api/ukweather/v1/ukweather/tafs",
+			"time": 51,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				51
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "89894b1b-50d6-4a8b-88d8-acf0affd1160",
+			"name": "POST_Weather_metars",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_weather/api/weather/v1/Weather/metars",
+			"time": 184,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				184
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5cc555e4-6518-4dcb-88a2-f9b90c43b013",
+			"name": "POST_Weather_tafs",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_weather/api/weather/v1/Weather/tafs",
+			"time": 219,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				219
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "951b76db-94bc-4d79-99b6-481fbf7e0fae",
+			"name": "POST_Weather_metars",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_weather/api/weather/v1/Weather/metars",
+			"time": 32,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				32
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ef9f3432-ee91-46d9-a84f-4c8ecd6f5746",
+			"name": "POST_Weather_Tafs",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_weather/api/weather/v1/Weather/tafs",
+			"time": 34,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				34
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "fe10569b-e888-463b-8a2e-f0db381af0bf",
+			"name": "POST_UKWeather_metars",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_ukweather/api/ukweather/v1/UKWeather/metars",
+			"time": 178,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				178
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ef527eff-d68c-491e-869c-c0918b9f9138",
+			"name": "POST_UKWeather_tafs",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_ukweather/api/ukweather/v1/UKWeather/tafs",
+			"time": 189,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				189
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"collection": {
+		"requests": [
+			{
+				"id": "94ce3b75-0231-49f4-bd9d-5bdf879e6d1f",
+				"method": "POST"
+			},
+			{
+				"id": "69e4866d-4b43-418c-b2ce-7401844dfd4c",
+				"method": "POST"
+			},
+			{
+				"id": "89894b1b-50d6-4a8b-88d8-acf0affd1160",
+				"method": "POST"
+			},
+			{
+				"id": "5cc555e4-6518-4dcb-88a2-f9b90c43b013",
+				"method": "POST"
+			},
+			{
+				"id": "951b76db-94bc-4d79-99b6-481fbf7e0fae",
+				"method": "POST"
+			},
+			{
+				"id": "ef9f3432-ee91-46d9-a84f-4c8ecd6f5746",
+				"method": "POST"
+			},
+			{
+				"id": "fe10569b-e888-463b-8a2e-f0db381af0bf",
+				"method": "POST"
+			},
+			{
+				"id": "ef527eff-d68c-491e-869c-c0918b9f9138",
+				"method": "POST"
+			}
+		]
+	}
+}

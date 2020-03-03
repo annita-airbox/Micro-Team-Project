@@ -1,0 +1,127 @@
+{
+	"id": "54553c62-0cf7-4483-96a4-0ea0db3235d9",
+	"name": "Work Permits",
+	"timestamp": "2020-02-27T16:48:28.720Z",
+	"collection_id": "2d2c2b63-2850-4357-8b4f-b7e279d61bf8",
+	"folder_id": 0,
+	"environment_id": "018182f7-63d4-460a-a7d7-85abee45cb5f",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "397abe48-4f93-4d80-9af6-64d9f81961c4",
+			"name": "WorkPermit-292",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_documentreceiver/api/documentreceiver/v1/documentreceiver/demo/file",
+			"time": 1206,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1206
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "512d3ef7-cfd6-4f11-96f9-0831ceaa9fd8",
+			"name": "WorkPermit-296",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_georeferenceddocumentcreator/api/gdc/v1/gdc/demo/file",
+			"time": 243,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				243
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "165899f1-027d-4c9a-beb2-21b78f795e45",
+			"name": "WorkPermit-333",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_georeferenceddocumentcreator/api/gdc/v1/gdc/demo/file",
+			"time": 321,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				321
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b717b3fc-08b7-4508-87aa-9b5c1483de6e",
+			"name": "WorkPermit-294",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_georeferenceddocumentcreator/api/gdc/v1/gdc/demo/file",
+			"time": 36,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				36
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "dd9a4746-7db0-4db7-b7ff-d71159ea1925",
+			"name": "WorkPermit-296",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_georeferenceddocumentcreator/api/gdc/v1/gdc/demo/file",
+			"time": 224,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				224
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"collection": {
+		"requests": [
+			{
+				"id": "397abe48-4f93-4d80-9af6-64d9f81961c4",
+				"method": "POST"
+			},
+			{
+				"id": "512d3ef7-cfd6-4f11-96f9-0831ceaa9fd8",
+				"method": "POST"
+			},
+			{
+				"id": "165899f1-027d-4c9a-beb2-21b78f795e45",
+				"method": "POST"
+			},
+			{
+				"id": "b717b3fc-08b7-4508-87aa-9b5c1483de6e",
+				"method": "POST"
+			},
+			{
+				"id": "dd9a4746-7db0-4db7-b7ff-d71159ea1925",
+				"method": "POST"
+			}
+		]
+	}
+}

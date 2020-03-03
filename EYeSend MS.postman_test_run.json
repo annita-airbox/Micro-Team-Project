@@ -1,0 +1,127 @@
+{
+	"id": "9639f3e9-4c9d-4efa-88d4-c5592c6dff59",
+	"name": "EYeSend MS",
+	"timestamp": "2020-02-27T18:13:37.585Z",
+	"collection_id": "094443bd-77d4-4240-8254-4779146f3ecd",
+	"folder_id": 0,
+	"environment_id": "018182f7-63d4-460a-a7d7-85abee45cb5f",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "fda30c5a-e72e-4540-be8f-b060392c600a",
+			"name": "MICRO-255",
+			"url": "https://grimaldi.airboxsystems.com:10000/airbox_eyesend/api/eyesend/v1/eyesend",
+			"time": 888,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				888
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6cc86bda-1c07-429d-a8b4-bab83829869e",
+			"name": "WorkPermit-294",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_georeferenceddocumentcreator/api/gdc/v1/gdc/demo/file",
+			"time": 1570,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1570
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e17caa9c-a050-43ed-b7ed-8db4e72692ef",
+			"name": "WorkPermit-333",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_georeferenceddocumentcreator/api/gdc/v1/gdc/demo/file",
+			"time": 393,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				393
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c5dbb49d-9f21-4945-bd72-8599bb214ba0",
+			"name": "WorkPermit-333",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_georeferenceddocumentcreator/api/gdc/v1/gdc/demo/file",
+			"time": 392,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				392
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bf083b26-5bd0-4c27-9962-e7544783b42c",
+			"name": "WorkPermit-296",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_georeferenceddocumentcreator/api/gdc/v1/gdc/demo/file",
+			"time": 1013,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1013
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"collection": {
+		"requests": [
+			{
+				"id": "fda30c5a-e72e-4540-be8f-b060392c600a",
+				"method": "POST"
+			},
+			{
+				"id": "6cc86bda-1c07-429d-a8b4-bab83829869e",
+				"method": "POST"
+			},
+			{
+				"id": "e17caa9c-a050-43ed-b7ed-8db4e72692ef",
+				"method": "POST"
+			},
+			{
+				"id": "c5dbb49d-9f21-4945-bd72-8599bb214ba0",
+				"method": "POST"
+			},
+			{
+				"id": "bf083b26-5bd0-4c27-9962-e7544783b42c",
+				"method": "POST"
+			}
+		]
+	}
+}

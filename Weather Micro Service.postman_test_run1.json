@@ -1,0 +1,20 @@
+{
+	"id": "7f4e064f-e832-42b6-9f71-2ca7231adec5",
+	"name": "Weather Micro Service",
+	"timestamp": "2020-02-27T17:22:44.016Z",
+	"collection_id": "4115a23d-ca7c-4eb8-af68-d515259f90c4",
+	"folder_id": "c710e561-5e57-4fe9-b336-9c5bc0790fe4",
+	"environment_id": "018182f7-63d4-460a-a7d7-85abee45cb5f",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [],
+	"count": 1,
+	"collection": {
+		"requests": [
+			{
+				"id": "94ce3b75-0231-49f4-bd9d-5bdf879e6d1f",
+				"method": "POST"
+			}
+		]
+	}
+}

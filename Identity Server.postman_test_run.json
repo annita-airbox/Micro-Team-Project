@@ -1,0 +1,422 @@
+{
+	"id": "cb64fd68-c695-4053-a855-553c5d5addcb",
+	"name": "Identity Server",
+	"timestamp": "2020-02-27T17:53:29.463Z",
+	"collection_id": "4c8485cf-c4d7-44c7-8519-c864a5c33b9a",
+	"folder_id": 0,
+	"environment_id": "018182f7-63d4-460a-a7d7-85abee45cb5f",
+	"totalPass": 1,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "465cb8d4-8e17-41e3-a689-42aeefb8bfac",
+			"name": "GET_All_Task",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_task/api/Task/v1/Task/tasks",
+			"time": 186,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				186
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6a351a0f-4589-4a65-9802-574999e1bd67",
+			"name": "POST_Creat_Task",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_task/api/Task/v1/Task/tasks",
+			"time": 79,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				79
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7084eb8e-160a-445b-9287-345f3b096dc9",
+			"name": "DELETE_Delete_Task",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_task/api/Task/v1/Task/tasks",
+			"time": 101,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				101
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5f758f6e-71de-4ed9-999f-436f6dae7761",
+			"name": "GET_Task_abxTaskId",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_task/api/Task/v1/Task/tasks/9629",
+			"time": 80,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				80
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "502a3c46-9956-4dca-a719-15cceb30f058",
+			"name": "PUT_Update_Task",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_task/api/Task/v1/Task/tasks/9630",
+			"time": 99,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				99
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "92b73fb7-a3cd-4b2f-b1a0-55c7eb47fcf1",
+			"name": "DELETE_Task_With_abxTaskId",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_task/api/Task/v1/Task/tasks/9628",
+			"time": 89,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				89
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3e7ce3c9-179d-4e54-97bf-6791fc72680c",
+			"name": "GET_All_Task_With_Organisation_3",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_task/api/Task/v1/Task/tasks/organisations/Organisation_3",
+			"time": 99,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				99
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3e8ab79a-d31e-43c9-9780-9cdc7750cd99",
+			"name": "GET_All_Task_With_Organisation_3_And_callerId",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_task/api/Task/v1/Task/tasks/organisations/Organisation_3/08993/latest",
+			"time": 97,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				97
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "25817e7f-083b-4120-ab19-3116a5f31115",
+			"name": "Get_Location_State",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_locationstate/api/location/v1/LocationState/users?accessId=Oganisation_3",
+			"time": 1236,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1236
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "fbedd647-d23e-48ae-9baa-03e580326cb0",
+			"name": "Get_incidents",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_incident//api/incident/v1/Incident/incidents",
+			"time": 231,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				231
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a191e032-40ea-46f0-8db7-45ac8137393a",
+			"name": "Post_Created_Incident",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_incident//api/incident/v1/Incident/incidents",
+			"time": 142,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				142
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9e51765f-d7e0-4802-89fc-f4e046874475",
+			"name": "Delete_Incident",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_incident/api/incident/v1/Incident/incidents",
+			"time": 102,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				102
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4456f891-7739-44dc-83cf-081ddd4ff301",
+			"name": "Get_incident_with_incidentId",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_incident/api/incident/v1/Incident/incidents/2",
+			"time": 69,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				69
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "60e027ed-1cf8-429b-9382-4f4ab17b2b5e",
+			"name": "Put_Updat_Incident",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_incident/api/incident/v1/Incident/incidents/5",
+			"time": 161,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				161
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "8e76838d-1f94-46f5-9290-91d5aa30f46f",
+			"name": "Delete_incidents_With_IncidentId",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_incident/api/incident/v1/Incident/incidents/4",
+			"time": 80,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				80
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "afbf2ff2-504d-4965-8e7e-f04dfeaabc3d",
+			"name": "Get_incident_with_OrganisationId",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_incident/api/incident/v1/Incident/incidents/organisations/Organisation_3",
+			"time": 83,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				83
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "555216f7-804f-4e61-bc8c-5385ad9ede31",
+			"name": "Post_kmlservice",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_kml/api/kml/v1/kml/locationdetails?accessId=aaaa",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				127
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "615791a9-69b0-42a6-a3a5-660b6e622241",
+			"name": "GET_All_Users",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_user/api/user/v1/User/users?accessId=Test_1",
+			"time": 103,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				103
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"collection": {
+		"requests": [
+			{
+				"id": "465cb8d4-8e17-41e3-a689-42aeefb8bfac",
+				"method": "GET"
+			},
+			{
+				"id": "6a351a0f-4589-4a65-9802-574999e1bd67",
+				"method": "POST"
+			},
+			{
+				"id": "7084eb8e-160a-445b-9287-345f3b096dc9",
+				"method": "DELETE"
+			},
+			{
+				"id": "5f758f6e-71de-4ed9-999f-436f6dae7761",
+				"method": "GET"
+			},
+			{
+				"id": "502a3c46-9956-4dca-a719-15cceb30f058",
+				"method": "PUT"
+			},
+			{
+				"id": "92b73fb7-a3cd-4b2f-b1a0-55c7eb47fcf1",
+				"method": "DELETE"
+			},
+			{
+				"id": "3e7ce3c9-179d-4e54-97bf-6791fc72680c",
+				"method": "GET"
+			},
+			{
+				"id": "3e8ab79a-d31e-43c9-9780-9cdc7750cd99",
+				"method": "GET"
+			},
+			{
+				"id": "25817e7f-083b-4120-ab19-3116a5f31115",
+				"method": "GET"
+			},
+			{
+				"id": "fbedd647-d23e-48ae-9baa-03e580326cb0",
+				"method": "GET"
+			},
+			{
+				"id": "a191e032-40ea-46f0-8db7-45ac8137393a",
+				"method": "POST"
+			},
+			{
+				"id": "9e51765f-d7e0-4802-89fc-f4e046874475",
+				"method": "DELETE"
+			},
+			{
+				"id": "4456f891-7739-44dc-83cf-081ddd4ff301",
+				"method": "GET"
+			},
+			{
+				"id": "60e027ed-1cf8-429b-9382-4f4ab17b2b5e",
+				"method": "PUT"
+			},
+			{
+				"id": "8e76838d-1f94-46f5-9290-91d5aa30f46f",
+				"method": "DELETE"
+			},
+			{
+				"id": "afbf2ff2-504d-4965-8e7e-f04dfeaabc3d",
+				"method": "GET"
+			},
+			{
+				"id": "555216f7-804f-4e61-bc8c-5385ad9ede31",
+				"method": "POST"
+			},
+			{
+				"id": "615791a9-69b0-42a6-a3a5-660b6e622241",
+				"method": "GET"
+			}
+		]
+	}
+}

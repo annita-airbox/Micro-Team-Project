@@ -1,0 +1,61 @@
+{
+	"id": "4f9d023d-6b4b-404c-8433-12a2ac0de93d",
+	"name": "HW EBI",
+	"timestamp": "2020-02-25T15:28:51.640Z",
+	"collection_id": "04bc7946-9d94-4b3b-bb1e-370fd2f7be02",
+	"folder_id": 0,
+	"environment_id": "018182f7-63d4-460a-a7d7-85abee45cb5f",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e4d41003-0fee-407b-a20e-895dc2790740",
+			"name": "EBIdatareceiver",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_ebidatareceiver/api/ebi/v1/Demo/events",
+			"time": 846,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				846
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "80993698-c348-40e7-a2d1-7554a85e2ca8",
+			"name": "EBIdatareceiver_289",
+			"url": "http://grimaldi.airboxsystems.com:9999/airbox_ebidatareceiver/api/ebi/v1/Demo/events",
+			"time": 121,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				121
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"collection": {
+		"requests": [
+			{
+				"id": "e4d41003-0fee-407b-a20e-895dc2790740",
+				"method": "POST"
+			},
+			{
+				"id": "80993698-c348-40e7-a2d1-7554a85e2ca8",
+				"method": "POST"
+			}
+		]
+	}
+}
